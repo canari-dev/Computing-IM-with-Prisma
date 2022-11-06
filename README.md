@@ -16,7 +16,9 @@ The price of the straddle is 22EUR, so Debbie receives a total premium of 220KEU
 	Eurex Clearing will ask for a collateral made of two components:
 1/ The Mark-to-Market margin, which aims to net the Net Asset Value (NAV) of the portfolio. In this case : 220KEUR
 	2/ The Initial Margin (IM), which accounts for the cost to unwind the position in an unfavorable market. This IM can be calculated using the Prisma API. 
-This Git provides the Python code to compute the IM for any options portfolio.
+This Git provides the Python code to compute the IM for any options portfolio. IT is based on the original doc provided by Eurex:
+https://www.eurex.com/ec-en/services/margincalculators/eurexotc-clear-prisma-margincalculator/cloud-prisma-margin-estimator
+
 In this case, the IM is 22KEUR.
 
 So Debbie is expected to send 22KEUR in cash on top of the 220KEUR of premium which is retained by the Clearing House. But this 244KEUR cash deposit at the Clearing House will yield only a very low interest rate of 20bps below the benchmark. 
