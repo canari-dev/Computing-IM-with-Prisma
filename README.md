@@ -52,6 +52,7 @@ So, what is the BOX rate ?
 In the end, the BOX price is a market price set on the BOX by all the Debbies and Mikes in the market.
 The BOX rate is derived from the BOX price which is akin to a Zero-Coupon Bond.
 For example, a price of 4886 points for the Dec2023 BOX translates into an interest rate of:
+![Screenshot](box_rate_formula.png)
 
 
 
